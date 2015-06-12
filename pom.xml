@@ -5,11 +5,6 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<name>Utils</name>
 	<description>Utils</description>
-		<parent>
-		<groupId>org.dsystems</groupId>
-		<artifactId>RulesOnSpark</artifactId>
-		<version>0.0.1-SNAPSHOT</version>
-	</parent>
 	
 	<dependencies>
 		<dependency>
