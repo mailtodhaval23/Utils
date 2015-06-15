@@ -4,6 +4,7 @@
 	<artifactId>Utils</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>Utils</name>
+	<groupId>org.dsystems</groupId>
 	<description>Utils</description>
 	
 	<dependencies>
