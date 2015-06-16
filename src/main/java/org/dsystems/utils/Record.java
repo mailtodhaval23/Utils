@@ -65,5 +65,12 @@ public class Record extends HashMap<String, Object> implements AbstractVariableS
 		//return "Record [record=" + record.toString() + "]";
 		return "Record [record=" + super.toString() + "]";
 	}
+	public Record getSubRecord(String[] keys) {
+		Record record = new Record();
+		for (String key: keys) {
+			record.put(key, this.get(key));
+		}
+		return record;
+	}
 
 }
